@@ -215,7 +215,7 @@ frontend/
 
 ```bash
 cd backend && npm test
-Video Explanation: https://drive.google.com/file/d/1YhcLE1czDfKcV8L38JJNr2EmFi26f_qy/view?usp=sharing
+Video Explanation:https://drive.google.com/drive/u/0/folders/10TbVlRuCFMTtSLU9n4S0yL-Fcno9M6no
 ```
 
 The integration tests use a throwaway database: `TEST_MONGODB_URI=mongodb://127.0.0.1:27017/lexguard_test npm test`. Without it, those tests are skipped. CI (GitHub Actions) runs them against a Mongo service on every push and pull request.
